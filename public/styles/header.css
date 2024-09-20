@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(43, 43, 43);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    color: rgb(255, 26, 26);
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+#zoom{
+    transition: all 0.3s;
+
+}
+#zoom:hover{
+    transform: scale(1.25);
+}
